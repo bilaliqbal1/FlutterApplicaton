@@ -6,13 +6,21 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
+  
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    var materialApp = MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Text("Hello World"),
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Text("1st row"),  
+            Text("1st row"),  
+            Text("1st row"),  
+        ],)
       ),
     );
+    return materialApp;
   }
 }
