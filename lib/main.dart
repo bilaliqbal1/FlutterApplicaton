@@ -1,4 +1,5 @@
 import 'package:firstapp/Home.dart';
+import 'package:firstapp/pages/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -57,7 +58,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Home(),
+        // body: Home(),
+        body: Login(),
       ),
     );
   }
