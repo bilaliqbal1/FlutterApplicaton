@@ -168,7 +168,7 @@ class _HomeState extends State<Home> {
                       Text("aBC"),
                       Row(
                         children: [
-                          Text("aBC"),
+                          Icon(Icons.add_a_photo_outlined),
                           Text("aBC"),
                         ],
                       ),
