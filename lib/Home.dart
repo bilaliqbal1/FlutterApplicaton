@@ -148,12 +148,43 @@ class _HomeState extends State<Home> {
       //     listtile(),
       //   ],
       // ),
-
-
+      body: ListView(
+        children: [
+          Container(
+            color: Colors.amberAccent,
+            height: 100,
+            child: Row(
+              children: [
+                Container(
+                  color: Colors.amber,
+                  height: 100,
+                  width: 100,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 10),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("aBC"),
+                      Row(
+                        children: [
+                          Text("aBC"),
+                          Text("aBC"),
+                        ],
+                      ),
+                      Text("aBC"),
+                      Text("aBC"),
+                    ],
+                  ),
+                )
+              ],
+            ),
+          )
+        ],
+      ),
     );
   }
 }
-
 
 //creating listtile widget
 
